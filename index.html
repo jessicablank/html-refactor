@@ -2,8 +2,14 @@
 <html lang="en-us">
 <!-- =^.^= -->
 <!-- This website functioned but used a lot of redundant code without much specificity. -->
-<!--It would be difficult for another developer to work on and might slow down loading-->
+<!--It would be difficult for another developer to work on and might slow down loading.-->
+<!--I learned that comments are important to track changes. -->
+<!--I also 'commented out' code to see if it is redundant--> 
+<!--I 'broke' the page several times, but figured out how to put it back together!--> 
 <!--Google Fu Source W3Schools & https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav-->
+<!--Discussing this with my classmates was also helpful-->
+<!-- =^.^= -->
+
 <head>
     <!--Webpage Title-->
     <title>Horiseon Social Solutions</title>
@@ -26,26 +32,28 @@
         <nav aria-label="primary navigation">
             <ul>
                 <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <!--Deleted Excess Text in Place Holder Links-->
+                    <a href="#">Search Engine Optimization</a>
                 </li>
                 <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
+                    <a href="#">Online Reputation Management</a>
                 </li>
                 <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
+                    <a href="#">Social Media Marketing</a>
                 </li>
             </ul>
         </nav>
     </header>
     <!--End of Header element, Start of Main element-->
     <main>
-    <!--Add relative image position instead of pulling background image from css as a url to imrove load speed-->
-    <div class="hero" >
-    </div>
+        <!--Changed "hero" from a class to an id-->
+        <section 
+        id="hero" aria-label="A Picture of Four People in a Business Meeting" >
+        </section>
     <!--Change div element to article so this could stand alone on it's own-->
-    <article class="content">
-        <!--Change div element to sections-->
-        <section class="search-engine-optimization">
+         <article class="content">
+        <!--Change div elements to sections-->
+         <section class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine Optimization">
             <h2>Search Engine Optimization</h2>
             <p>
@@ -54,7 +62,7 @@
                  visibility and find the right customers for your business.
             </p>
         </section>
-        <div id="online-reputation-management" class="online-reputation-management">
+        <section class="online-reputation-management">
             <!--Add alts to help 'read' the images to users-->
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt = "Online Reputation Management">
             <h2>Online Reputation Management</h2>
@@ -64,8 +72,9 @@
                 Online Reputation Management gives you the control over what potential customers see when they search for 
                 your business.
             </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        </section>
+         <!--Deleted id's that don't exist in css file and are redundant with classes-->
+        <section class="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Social Media Marketing">
             <h2>Social Media Marketing</h2>
             <p>
@@ -73,7 +82,7 @@
                 Social media marketing helps you determine which platforms are suited to your brand,
                 using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
+        </section>
     </article>
     <!--Change div element to an aside-->
     <aside class= "benefits">
