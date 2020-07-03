@@ -2,13 +2,6 @@
 <html lang="en-us">
 <!-- =^.^= -->
 <!-- This website functioned but used redundant code without much specificity. -->
-<!--It would be difficult for another developer to work on and might slow down loading.-->
-<!--I learned that comments are important to track changes. -->
-<!--I also 'commented out' code to see if it is redundant-->
-<!--I 'broke' the page several times, but figured out how to put it back together!-->
-<!--Google Fu Source W3Schools & https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav-->
-<!--Discussing this with my classmates was also helpful-->
-<!-- =^.^= -->
 
 <head>
     <!--Webpage Title-->
@@ -17,14 +10,14 @@
     <meta charset="UTF-8">
     <meta name="Description" content="Services provided by Horiseon Social Solutions">
     <meta name="Author" content="Horiseon Social Solutions">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Linking CSS-->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <!--Change <div> to <header> since <div> should only be used when no other element can be used-->
-    <header class="header">
+    <header class="header" id="top-of-page">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!--Change <div> to <nav> to represent a section of the page with navigation links-->
         <!--aria labels help with accessability-->
@@ -32,7 +25,7 @@
         <nav aria-label="primary navigation">
             <ul>
                 <li>
-                    <!--Deleted Excess Text in Place Holder Links-->
+                   
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -46,15 +39,15 @@
     </header>
     <!--End of Header element, Start of Main element-->
     <main>
-        <!--Changed "hero" from a class to an id-->
+     
         <section id="hero" aria-label="A Picture of Four People in a Business Meeting">
         </section>
-        <!--Change div element to article so this could stand alone on it's own-->
+      
         <article class="content">
             <!--Change div elements to sections-->
             <section class="search-engine-optimization" id="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
-                    alt="Search Engine Optimization">
+                    alt="A notebook with SEO concepts on the cover sitting on a wooden desk surrounded by a laptop, magnifying glass, coffee, and pencils">
                 <h2>Search Engine Optimization</h2>
                 <p>
                     The dominance of mobile internet use means that users are searching for the right business as they
@@ -66,7 +59,7 @@
             <section class="online-reputation-management" id="online-reputation-management">
                 <!--Add alts to help 'read' the images to users-->
                 <img src="./assets/images/online-reputation-management.jpg" class="float-right"
-                    alt="Online Reputation Management">
+                    alt="A person checking a cell phone while looking at a laptop screen displaying a graph with the label Reputation">
                 <h2>Online Reputation Management</h2>
                 <p>
                     The web is full of opinions, and some of these can be negative.
@@ -77,9 +70,9 @@
                     your business.
                 </p>
             </section>
-            <!--Deleted id's that don't exist in css file and are redundant with classes-->
+           
             <section class="social-media-marketing" id ="social-media-marketing">
-                <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Social Media Marketing">
+                <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="People sitting around a desk with their mobile devices and laptops with voice and thought bubbles displaying Tweet, Like, Media, and Share">
                 <h2>Social Media Marketing</h2>
                 <p>
                     Social media continues to have a sizable influence on buying habits.
