@@ -8,7 +8,6 @@
 ## Table of Contents:
 * [Installation](#installation-instructions)
 * [Usage](#usage)
-* [Tests](#tests)
 * [Questions](#questions)
 * [License](#license-info)
 
@@ -17,9 +16,6 @@ Fork and Go! Ready to run in VS Code.
 
 ## Usage
 The website should be optimized for accessibility standards as well as optimized for search engines. 
-
-## Tests
-
 
 ## Questions
 You can reach the author, Jessica Blankemeier,  via [github](http://github.com/jessicablank) and [email](mailto:jessicablankemeier@gmail.com)
